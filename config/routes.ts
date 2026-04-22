@@ -1,4 +1,4 @@
-﻿export default [
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -35,6 +35,12 @@
 		name: 'RandomUser',
 		component: './RandomUser',
 		icon: 'ArrowsAltOutlined',
+	},
+	{
+		path: '/quan-ly-don-hang',
+		name: 'Quản lý đơn hàng',
+		component: './QuanLyDonHang',
+		icon: 'ShoppingCartOutlined',
 	},
 
 	// DANH MUC HE THONG
